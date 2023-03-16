@@ -1,5 +1,5 @@
 import x11 / [x, xlib]
-{.passL: "`imlib2-config --libs`".}
+{.passL: "`pkg-config imlib2 --libs`".}
 
 type
   DATA64* = culonglong
